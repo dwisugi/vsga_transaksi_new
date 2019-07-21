@@ -1,0 +1,1 @@
+SELECT nama_produk, warna, jumlah, harga, nama_kategori, nama_merk FROM `produk` INNER JOIN kategori_produk ON produk.id_kategori=kategori_produk.id_kategori INNER JOIN merk ON produk.id_merk=merk.id_merk;
